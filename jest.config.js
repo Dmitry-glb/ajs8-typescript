@@ -3,11 +3,11 @@ module.exports = {
   testEnvironment: 'node',
   collectCoverageFrom: [
     'src/js/movie.ts',
-    'src/js/cart.ts',
+    'src/ts/service/Cart.ts'
   ],
   coverageThreshold: {
     global: {
-      lines: 100,
-    },
-  },
+      lines: 100
+    }
+  }
 };
